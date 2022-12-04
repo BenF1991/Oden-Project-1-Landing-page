@@ -46,3 +46,9 @@ body{
   background-color: #1F2937;
   height: 72px;
 }
+
+button.signup {
+  background: royalblue;
+  border: 1px solid royalblue;
+  color: white;
+}
