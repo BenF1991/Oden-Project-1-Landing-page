@@ -1,0 +1,48 @@
+body{
+  margin: 0;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+}
+
+.header{
+  border: 1px solid #ff0000;
+  height: 72px;
+  display: flex;
+  color: white;
+  background-color: #1F2937;
+}
+
+.banner{
+  border: 1px solid #ff0000;
+  display: flex;
+  background-color: #1F2937;
+  height: 72px;
+}
+
+.info{
+  border: 1px solid #ff0000;
+  display: flex;
+  background-color: #ffffff;
+  height: 72px;
+}
+.signup{
+  border: 1px solid #ff0000;
+  display: flex;
+  background-color: #ffffff;
+  height: 72px;
+}
+
+.quote{
+  border: 1px solid #ff0000;
+  display: flex;
+  background-color: #ffffff;
+  height: 72px;
+}
+
+.footer{
+  background-color: #1F2937;
+  height: 72px;
+}
