@@ -90,16 +90,23 @@ padding-right: 30px;
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
   background-color: #E5E7EB;
-  height: 72px;
-  height: 300px;
+  padding-left: 200px;
+  padding-right: 300px;
+  padding-top: 160px;
+  padding-bottom: 160px;
 }
 
 .quotetext{
   border: 1px solid #ff0000;
-  width: 500px;
-  height: 150px;
   padding-top: 60px;
+}
+
+.thor{
+  border: 1px solid #ff0000;
+  color: #000000;
+  padding-left: 480px;
 }
 
 .signup{
@@ -114,7 +121,20 @@ padding-right: 30px;
   border: 1px solid #ff0000;
   border-radius: 8px;
   height: 130px;
-  width: 500px;
+  width: 700px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+.signupcontent{
+ margin-right: 100px
+
+}
+.signupbutton{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background: royalblue;
+  border: 1px solid #ffffff;
+  border-radius: 8px;
 }
 
 .footer{
@@ -173,4 +193,22 @@ p{
   font-size: 18px;
   color: #E5E7EB;
   text-align: center;
+}
+
+h2{
+  color: #ffffff;
+}
+
+
+p1{
+  font-size: 36px;
+  font-style: italic;
+  color: #1F293780;
+}
+
+p2{
+  font-size: 20px;
+  font-style: italic;
+  color: #000000;
+  font-weight: bold;
 }
