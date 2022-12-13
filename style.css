@@ -8,7 +8,7 @@
 .container{
   display: flex wrap;
   flex-direction: column;
-  min-width: 400px;
+  min-width: 900px;
 }
 
 .header{
@@ -26,6 +26,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  flex: 1 1 auto;
   background-color: #1F2937;
 }
 
@@ -63,7 +64,7 @@ padding-right: 30px;
 .infoitems{
   display: flex;
   justify-content: center;
-  flex: wrap;
+  flex-wrap: : wrap;
   padding: 40px;
   width: 200px;
   height: 300px;
@@ -111,17 +112,20 @@ padding-right: 30px;
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 250px;
+  width: 100%;
+  height: 300px;
 }
+
 .signupbox{
   display: flex;
+  margin: 150px;
   background: royalblue;
   border-radius: 8px;
-  height: 130px;
-  width: 700px;
+  margin: 80px;
   padding-left: 80px;
   padding-right: 80px;
 }
+
 .signupcontent{
  margin-right: 100px
 
